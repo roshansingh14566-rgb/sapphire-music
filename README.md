@@ -1,60 +1,56 @@
-# Sapphire Music — Spotify-inspired React Player
+# 🎵 Sapphire Music
 
-A responsive music player built from the four modules in the supplied screenshots:
+A Spotify-inspired music streaming web application built using React, Tailwind CSS, and HTML5 Audio API.
 
-1. **Layout & Navigation** — responsive sidebar, top navigation, main content area, CSS Grid and Flexbox.
-2. **Playlist & Track Listing** — reusable playlist cards and track rows rendered from JavaScript data with props.
-3. **Audio Player Controls** — HTML5 `<audio>` element with play/pause, previous/next, progress seeking, volume and playback events.
-4. **Search & Now Playing State** — React Context shares the current track and playback state across the app; search filters the track list while the player stays visible.
+## 🚀 Features
 
-## Requirements
+- Responsive music player interface
+- Playlist and track listing
+- Play and Pause music
+- Next and Previous track controls
+- Volume control
+- Music progress bar
+- Song search functionality
+- React Context API for music state management
 
-- Node.js 18 or newer
-- npm
+## 🛠️ Technologies Used
 
-## Run locally
+- React.js
+- JavaScript
+- Tailwind CSS
+- HTML5 Audio API
+- Vite
 
-Open a terminal in this project folder and run these commands one at a time:
+## 💻 Installation
 
-```bash
-npm install
-npm run dev
-```
+1. Clone the repository:
 
-Open the local URL printed by Vite (usually `http://localhost:5173`).
+   ```bash
+   git clone https://github.com/roshansingh14566-rgb/sapphire-music.git
+   ```
 
-To create a production build:
+2. Open the project folder:
 
-```bash
-npm run build
-npm run preview
-```
+   ```bash
+   cd sapphire-music
+   ```
 
-## Project structure
+3. Install dependencies:
 
-```text
-sapphire-music/
-├── index.html
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── vite.config.js
-└── src/
-    ├── App.jsx
-    ├── index.css
-    ├── main.jsx
-    ├── components/
-    │   ├── PlayerBar.jsx
-    │   ├── Sidebar.jsx
-    │   └── TrackList.jsx
-    ├── context/
-    │   └── PlayerContext.jsx
-    └── data/
-        └── music.js
-```
+   ```bash
+   npm install
+   ```
 
-## Notes
+4. Start the development server:
 
-- Demo audio and cover art are loaded from external URLs, so an internet connection is required for those assets.
-- The audio files are sample tracks from SoundHelix, not Spotify streams.
-- This is an educational Spotify-inspired interface, not an official Spotify product.
+   ```bash
+   npm run dev
+   ```
+
+## 📌 Project Purpose
+
+This project was created for learning React, component-based development, music playback, and state management.
+
+## 👨‍💻 Developer
+
+Roshan Singh
